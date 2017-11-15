@@ -1,0 +1,13 @@
+
+
+
+
+
+
+
+
+
+black borders
+div, header, footer, nav {
+  border: solid black 1px;
+}
