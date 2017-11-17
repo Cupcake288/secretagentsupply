@@ -9,19 +9,23 @@
   <body>
     <!--Header with logo-->
     <header>
-      <img src="./resources/images/logo.png" alt="logo">
-      <span>Secret Agent Supply Inc.</span>
+      <div class="container">
+        <img src="./resources/images/logo.png" alt="logo">
+        <span>Secret Agent Supply Inc.</span>
+      </div>
     </header>
     <!--Banner section-->
     <div class="banner">
-      <div class="headline">
-        <h4>New Arrival</h4>
-        <h1>Sport Bikes and Motorcycles</h1>
+      <div class="container">
+        <div class="headline">
+          <h4>New Arrival</h4>
+          <h1>Sport Bikes and Motorcycles</h1>
+        </div>
       </div>
     </div>
     <!-- Navigation Bar-->
     <nav>
-      <ul>
+      <ul class="container desktop">
         <li>Eyewear</li>
         <li>Apparel</li>
         <li>Gadgets</li>
@@ -29,35 +33,44 @@
         <li>Classes</li>
         <li>Contact</li>
       </ul>
+      <ul class="container mobile">
+        <li>Menu</li>
+      </ul>
     </nav>
     <!-- Main content section-->
+    <!-- Product grid-->
     <div class="container">
-      <div class="product">
+      <div class="product first-prod">
         <img src="./resources/images/pen.png" alt="pen">
         <span class="description">Exploding Pen</span>
       </div>
-      <div class="product">
+      <div class="product second-prod">
         <img src="./resources/images/watch.png" alt="watch">
         <span class="description">Cellular Watch</span>
       </div>
-      <div class="product">
+      <div class="product third-prod">
         <img src="./resources/images/glasses.png" alt="glasses">
         <span class="description">Thermal Glasses</span>
       </div>
     </div>
-    <div class="container">
-      <div class="infobox">
-        <span class="description">Location</span>
-        <span>-47.346436, 84.32354</span>
-      </div>
-        <span class="description">Hours</span>
-        <span>0800 - 1800</span>
-      <div class="infobox">
+    <!-- Other info -->
+    <div class="infosection">
+      <div class="container">
+        <div class="infobox">
+          <span class="description">Location</span>
+          <span class="infotext">-47.346436, 84.32354</span>
+        </div>
+        <div class="infobox">
+          <span class="description">Hours</span>
+          <span class="infotext">0800 - 1800</span>
+        </div>
       </div>
     </div>
     <!-- Footer section-->
-    <footer>
-      <span>&copy Secret Agent Supply Inc.</span>
-    </footer>
+    <div class="footer">
+      <div class="container">
+        <span>&copy Secret Agent Supply Inc.</span>
+      </div>
+    </div>
   </body>
 </html>
